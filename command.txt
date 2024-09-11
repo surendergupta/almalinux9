@@ -1,0 +1,599 @@
+    1  ifconfig
+    2  vim
+    3  ls
+    4  sudo apt update
+    5  sudo yum update
+    6  clear
+    7  vim
+    8  nano
+    9  yum install vim
+   10  sudo yum install vim
+   11  clear
+   12  vim
+   13  aws
+   14  curl -s "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+   15  ls
+   16  sudo yum install -y unzip &> /dev/null
+   17  unzip -q awscliv2.zip
+   18  ls
+   19  ls aws
+   20  sudo ./aws/install
+   21  aws --version
+   22  ls
+   23  rm -rf ./awscliv2.zip ./aws
+   24  ls
+   25  aws --version
+   26  command -v aws
+   27  command -v aws &> /dev/null
+   28  ls
+   29  clear
+   30  mdkir scripts
+   31  mkdir scripts
+   32  cs scripts/
+   33  cd scripts/
+   34  clear
+   35  ls
+   36  file1.sh
+   37  vim file1.sh
+   38  ls
+   39  chmod +x ./file1.sh 
+   40  ls
+   41  ls -ltra
+   42  chmod 755 ./file1.sh 
+   43  ls -ltra
+   44  ./file1.sh 
+   45  vim file1.sh
+   46  ./file1.sh 
+   47  clear
+   48  sudo yum uninstall awscli
+   49  sudo yum uninstall awscliv2
+   50  sudo yum uninstall aws
+   51  aws
+   52  aws help
+   53  sudo remove aws
+   54  sudo yum remove awscli
+   55  sudo yum remove aws-cli
+   56  sudo yum remove aws
+   57  sudo yum remove awscliv2
+   58  sudo /usr/local/aws-cli/v2/current/uninstall
+   59  command -v aws
+   60  cd /usr/local/bin/aws
+   61  cd /usr/local/bin
+   62  ls
+   63  aws
+   64  where aws
+   65  ~
+   66  cd ~
+   67  where aws
+   68  who am i
+   69  clear
+   70  aws
+   71  aws -version
+   72  aws --version
+   73  clear
+   74  which aws
+   75  ls -l /usr/local/bin/aws
+   76  sudo rm /usr/local/bin/aws
+   77  sudo rm /usr/local/bin/aws_completer
+   78  sudo rm -rf /usr/local/aws-cli
+   79  sudo rm -rf ~/.aws/
+   80  aws --version
+   81  aws
+   82  clear
+   83  ls
+   84  cd scripts/
+   85  ./file1.sh 
+   86  aws
+   87  ./file1.sh 
+   88  where aws
+   89  vim file1.sh
+   90  ./file1.sh 
+   91  clear
+   92  ./file1.sh 
+   93  vim file1.sh
+   94  ls
+   95  vim aws_cli_install.sh
+   96  vim aws_cli_uninstall.sh
+   97  ls
+   98  chmod 754 ./aws_cli_uninstall.sh
+   99  ls -l
+  100  chmod 755 ./aws_cli_install.sh
+  101  ls -l
+  102  ./aws_cli_install.sh
+  103  ./file1.sh
+  104  ./aws_cli_uninstall.sh
+  105  ./file1.sh
+  106  rm ./file1.sh ./check_aws.sh
+  107  rm ./check_aws.sh ./file1.sh
+  108  ls
+  109  vim check_aws.sh
+  110  chmod +x check_aws.sh
+  111  ls
+  112  ./check_aws.sh 
+  113  vim check_aws.sh
+  114  ./check_aws.sh 
+  115  clear
+  116  ls
+  117  ./check_aws.sh 
+  118  clear
+  119  ls
+  120  cat check_aws.sh 
+  121  cat aws_cli_install.sh 
+  122  cat aws_cli_uninstall.sh 
+  123  clear
+  124  vim aws_install.sh
+  125  chmod +x aws_install.sh
+  126  ./aws_install.sh
+  127  vim aws_install.sh
+  128  ./aws_install.sh
+  129  vim aws_install.sh
+  130  ./aws_install.sh
+  131  vim aws_install.sh
+  132  ./aws_install.sh
+  133  vim aws_install.sh
+  134  ./aws_install.sh
+  135  vim aws_install.sh
+  136  ./aws_install.sh
+  137  vim aws_install.sh
+  138  ./aws_install.sh
+  139  vim aws_install.sh
+  140  ./aws_install.sh
+  141  vim aws_install.sh
+  142  ./aws_install.sh
+  143  vim aws_install.sh
+  144  ./aws_install.sh
+  145  clear
+  146  vim aws_install.sh
+  147  ./aws_install.sh
+  148  vim aws_install.sh
+  149  ./aws_install.sh
+  150  vim aws_install.sh
+  151  ./aws_install.sh
+  152  vim aws_install.sh
+  153  ./aws_install.sh
+  154  vim aws_install.sh
+  155  ./aws_install.sh
+  156  vim aws_install.sh
+  157  ./aws_install.sh
+  158  ls
+  159  ./check_aws.sh 
+  160  cat aws_cli_install.sh 
+  161  vim aws_install.sh
+  162  clear
+  163  ./aws_install.sh
+  164  vim aws_install.sh
+  165  ./aws_install.sh
+  166  ls
+  167  ./aws_cli_uninstall.sh 
+  168  ./aws_install.sh
+  169  vim aws_install.sh
+  170  ./aws_install.sh
+  171  vim aws_install.sh
+  172  exit
+  173  clear
+  174  pwd
+  175  ls
+  176  mkdir vpdir
+  177  mkdir testdir
+  178  mkdir devopsdir
+  179  ls
+  180  touch file1 file2 file3 file4
+  181  ls
+  182  cd devopsdir/
+  183  pwd
+  184  cd ..
+  185  mkdir devopsdir/ansible
+  186* 
+  187  ls devopsdir
+  188  mkdir /home/vagrant/devopsdir/aws
+  189  ls devopsdir
+  190  ls
+  191  cp file1 testdir/
+  192  ls
+  193  ls testdir
+  194  cp -rvfp testdir/ vpdir/
+  195  ls vpdir
+  196  ls vpdir/testdir/
+  197  clear
+  198  ls
+  199  mv devopsdir/ vpdir/
+  200  ls
+  201  ls vpdir/
+  202  mv file3 file4 vpdir/
+  203  ls
+  204  ls vpdir
+  205  rm file1
+  206  ls
+  207  rm -rf testdir/
+  208  ls
+  209  vim
+  210  ls /var/log/
+  211  ln -s /var/log/ logdir
+  212  ls -l
+  213  ls logdir
+  214  clear
+  215  history
+  216  clear
+  217  cat /etc/passwd
+  218  grep root /etc/passwd
+  219  grep -i Root /etc/passwd
+  220  grep Root /etc/passwd
+  221  grep -v root /etc/passwd
+  222  less /etc/passwd
+  223  clear
+  224  more /etc/passwd
+  225  head /etc/passwd
+  226  tail /etc/passwd
+  227  clear
+  228  ls
+  229  vim file1.txt
+  230  cat file1.txt 
+  231  cut -d: -f1 file1.txt 
+  232  cut -d" " -f1 file1.txt 
+  233  cut -d" " -f2 file1.txt 
+  234  cut -d" " -f3 file1.txt 
+  235  cut -d" " -f4 file1.txt 
+  236  cta file1.txt 
+  237  cat file1.txt 
+  238  sed 's/Tech/Technology/g' file1.txt 
+  239  sed 's/Technology /Technologies/g' file1.txt 
+  240  cat file1.txt 
+  241  sed 's/Tech/Technology/g' file1.txt 
+  242  cat file1.txt 
+  243  sed 's/Tech /Technologies/g' file1.txt 
+  244  sed 's/Tech/Technologies/g' file1.txt 
+  245  vim devopstools
+  246  cat devopstools 
+  247  sed 's/tech/tools/g' devopstools > devops.txt
+  248  ls
+  249  cat devops.txt 
+  250  grep -i root /etc/passwd 
+  251  grep -i root /etc/passwd >> devops.txt 
+  252  cat devops.txt 
+  253  grep -i root devops.txt | cut -d -f devops.txt
+  254  grep -i root devops.txt | cut -d: -f devops.txt
+  255  grep -i root | cut -d: -f devops.txt
+  256  cat devops.txt 
+  257  uptimer
+  258  uptimer 2>> /tmp/error.log
+  259  cat /tmp/error.log 
+  260  uptimer 2>> /tmp/error.log
+  261  cat /tmp/error.log 
+  262  uptimer &>> /tmp/error.log
+  263  cat /tmp/error.log 
+  264  ls
+  265  clear
+  266  ls
+  267  ls | head -3
+  268  ls | grep logdir
+  269  cat /etc/passwd | grep root
+  270  cat /etc/passwd | awk -F '{ print $1 }' | grep root
+  271  cat /etc/passwd | awk -F: '{ print $1 }' | grep root
+  272  cat /etc/passwd | awk -F: '{ print $1 }' | grep vagrant
+  273  ls
+  274  find pwd -name file1.txt 
+  275  find $pwd -name file1.txt 
+  276  find $pwd -type file1.txt 
+  277  find $pwd -type file1.txt, vpdir,scripts 
+  278  find--help
+  279  find --help
+  280  history
+  281      1  ifconfig
+  282      2  vim
+  283      3  ls
+  284      4  sudo apt update
+  285      5  sudo yum update
+  286      6  clear
+  287      7  vim
+  288      8  nano
+  289      9  yum install vim
+  290     10  sudo yum install vim
+  291     11  clear
+  292     12  vim
+  293     13  aws
+  294     14  curl -s "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+  295     15  ls
+  296     16  sudo yum install -y unzip &> /dev/null
+  297     17  unzip -q awscliv2.zip
+  298     18  ls
+  299     19  ls aws
+  300     20  sudo ./aws/install
+  301     21  aws --version
+  302     22  ls
+  303     23  rm -rf ./awscliv2.zip ./aws
+  304     24  ls
+  305     25  aws --version
+  306     26  command -v aws
+  307     27  command -v aws &> /dev/null
+  308     28  ls
+  309     29  clear
+  310     30  mdkir scripts
+  311     31  mkdir scripts
+  312     32  cs scripts/
+  313     33  cd scripts/
+  314     34  clear
+  315     35  ls
+  316     36  file1.sh
+  317     37  vim file1.sh
+  318     38  ls
+  319     39  chmod +x ./file1.sh
+  320     40  ls
+  321     41  ls -ltra
+  322     42  chmod 755 ./file1.sh
+  323     43  ls -ltra
+  324     44  ./file1.sh
+  325     45  vim file1.sh
+  326     46  ./file1.sh
+  327     47  clear
+  328     48  sudo yum uninstall awscli
+  329     49  sudo yum uninstall awscliv2
+  330     50  sudo yum uninstall aws
+  331     51  aws
+  332     52  aws help
+  333     53  sudo remove aws
+  334     54  sudo yum remove awscli
+  335     55  sudo yum remove aws-cli
+  336     56  sudo yum remove aws
+  337     57  sudo yum remove awscliv2
+  338     58  sudo /usr/local/aws-cli/v2/current/uninstall
+  339     59  command -v aws
+  340     60  cd /usr/local/bin/aws
+  341     61  cd /usr/local/bin
+  342     62  ls
+  343     63  aws
+  344     64  where aws
+  345     65  ~
+  346     66  cd ~
+  347     67  where aws
+  348     68  who am i
+  349     69  clear
+  350     70  aws
+  351     71  aws -version
+  352     72  aws --version
+  353     73  clear
+  354     74  which aws
+  355     75  ls -l /usr/local/bin/aws
+  356     76  sudo rm /usr/local/bin/aws
+  357     77  sudo rm /usr/local/bin/aws_completer
+  358     78  sudo rm -rf /usr/local/aws-cli
+  359     79  sudo rm -rf ~/.aws/
+  360     80  aws --version
+  361     81  aws
+  362     82  clear
+  363     83  ls
+  364     84  cd scripts/
+  365     85  ./file1.sh
+  366     86  aws
+  367     87  ./file1.sh
+  368     88  where aws
+  369     89  vim file1.sh
+  370     90  ./file1.sh
+  371     91  clear
+  372     92  ./file1.sh
+  373     93  vim file1.sh
+  374     94  ls
+  375     95  vim aws_cli_install.sh
+  376     96  vim aws_cli_uninstall.sh
+  377     97  ls
+  378     98  chmod 754 ./aws_cli_uninstall.sh
+  379     99  ls -l
+  380    100  chmod 755 ./aws_cli_install.sh
+  381    101  ls -l
+  382    102  ./aws_cli_install.sh
+  383    103  ./file1.sh
+  384    104  ./aws_cli_uninstall.sh
+  385    105  ./file1.sh
+  386    106  rm ./file1.sh ./check_aws.sh
+  387    107  rm ./check_aws.sh ./file1.sh
+  388    108  ls
+  389    109  vim check_aws.sh
+  390    110  chmod +x check_aws.sh
+  391    111  ls
+  392    112  ./check_aws.sh
+  393    113  vim check_aws.sh
+  394    114  ./check_aws.sh
+  395    115  clear
+  396    116  ls
+  397    117  ./check_aws.sh
+  398    118  clear
+  399    119  ls
+  400    120  cat check_aws.sh
+  401    121  cat aws_cli_install.sh
+  402    122  cat aws_cli_uninstall.sh
+  403    123  clear
+  404    124  vim aws_install.sh
+  405    125  chmod +x aws_install.sh
+  406    126  ./aws_install.sh
+  407    127  vim aws_install.sh
+  408    128  ./aws_install.sh
+  409    129  vim aws_install.sh
+  410    130  ./aws_install.sh
+  411    131  vim aws_install.sh
+  412    132  ./aws_install.sh
+  413    133  vim aws_install.sh
+  414    134  ./aws_install.sh
+  415    135  vim aws_install.sh
+  416    136  ./aws_install.sh
+  417    137  vim aws_install.sh
+  418    138  ./aws_install.sh
+  419    139  vim aws_install.sh
+  420    140  ./aws_install.sh
+  421    141  vim aws_install.sh
+  422    142  ./aws_install.sh
+  423    143  vim aws_install.sh
+  424    144  ./aws_install.sh
+  425    145  clear
+  426    146  vim aws_install.sh
+  427    147  ./aws_install.sh
+  428    148  vim aws_install.sh
+  429    149  ./aws_install.sh
+  430    150  vim aws_install.sh
+  431    151  ./aws_install.sh
+  432    152  vim aws_install.sh
+  433    153  ./aws_install.sh
+  434    154  vim aws_install.sh
+  435    155  ./aws_install.sh
+  436    156  vim aws_install.sh
+  437    157  ./aws_install.sh
+  438    158  ls
+  439    159  ./check_aws.sh
+  440    160  cat aws_cli_install.sh
+  441    161  vim aws_install.sh
+  442    162  clear
+  443    163  ./aws_install.sh
+  444    164  vim aws_install.sh
+  445    165  ./aws_install.sh
+  446    166  ls
+  447    167  ./aws_cli_uninstall.sh
+  448    168  ./aws_install.sh
+  449    169  vim aws_install.sh
+  450    170  ./aws_install.sh
+  451    171  vim aws_install.sh
+  452    172  exit
+  453    173  clear
+  454    174  pwd
+  455    175  ls
+  456    176  mkdir vpdir
+  457    177  mkdir testdir
+  458    178  mkdir devopsdir
+  459    179  ls
+  460    180  touch file1 file2 file3 file4
+  461    181  ls
+  462    182  cd devopsdir/
+  463    183  pwd
+  464    184  cd ..
+  465    185  mkdir devopsdir/ansible
+  466    186*
+  467    187  ls devopsdir
+  468    188  mkdir /home/vagrant/devopsdir/aws
+  469    189  ls devopsdir
+  470    190  ls
+  471    191  cp file1 testdir/
+  472    192  ls
+  473    193  ls testdir
+  474    194  cp -rvfp testdir/ vpdir/
+  475    195  ls vpdir
+  476    196  ls vpdir/testdir/
+  477    197  clear
+  478    198  ls
+  479    199  mv devopsdir/ vpdir/
+  480    200  ls
+  481    201  ls vpdir/
+  482    202  mv file3 file4 vpdir/
+  483    203  ls
+  484    204  ls vpdir
+  485    205  rm file1
+  486    206  ls
+  487    207  rm -rf testdir/
+  488    208  ls
+  489    209  vim
+  490    210  ls /var/log/
+  491    211  ln -s /var/log/ logdir
+  492    212  ls -l
+  493    213  ls logdir
+  494    214  clear
+  495    215  historyq
+  496  history
+  497  clear
+  498  history
+  499  clear
+  500  find $pwd -type f -name "*.txt"
+  501  find $pwd -type d -name "devops"
+  502  ls
+  503  find $pwd -type d -name devops
+  504  find $pwd -type d -name "devops*"
+  505  find $pwd -type d -name "scr*"
+  506  find $pwd -type f -size -n 100
+  507  find $pwd -type f -size -100
+  508  find $pwd -type f -size -10
+  509  find $pwd -type f -size +10
+  510  find $pwd -type f -size +100
+  511  find $pwd -type f -size +50
+  512  find $pwd -type f -size -50
+  513  find $pwd -type f -size -50 -mtime 1
+  514  find $pwd -type f -size -50 -mtime 1 -print
+  515  find $pwd -type f -size -50 -mtime 1 -maxdepth 1
+  516  find $pwd -maxdepth 0 -type f -size -50 -mtime 1
+  517  find $pwd -maxdepth 1 -type f -size -50 -mtime 1
+  518  find $pwd -maxdepth 2 -type f -size -50 -mtime 1
+  519  find $pwd -mindepth 2 -type f -size -50 -mtime 1
+  520  find $pwd -mindepth 3 -type f -size -50 -mtime 1
+  521  find $pwd -empty
+  522  find $pwd -delete
+  523  ls
+  524  history
+  525  clear
+  526  ls
+  527  mkdir testdir
+  528  mkdir vpdir
+  529  mkdir devopsdir
+  530  ls
+  531  touch file1.txt file2.txt file2.txt file4.txt
+  532  ls
+  533  echo 'This content for file1' >> file1.txt 
+  534  echo 'This content for file2' >> file2.txt 
+  535  echo 'This content for file3' >> file3.txt 
+  536  cat file1.txt 
+  537  cat file2.txt 
+  538  cat file3.txt 
+  539  cat file4.txt 
+  540  ls $pwd
+  541  mv file1.txt file2.txt testdir/
+  542  ls
+  543  ls testdir/
+  544  mv file3.txt file4.txt vpdir/
+  545  ls
+  546  devopsdir/
+  547  cd devopsdir/
+  548  touch file{1...5}.txt
+  549  ls
+  550  touch file{1..5}.txt
+  551  ls
+  552  rm file{1...5}.txt
+  553  ls
+  554  cd
+  555  find $pwd/vpdir -name file.txt
+  556  ls
+  557  find $pwd+'/vpdir/' -name file.txt
+  558  find $pwd'/vpdir/' -name file.txt
+  559  find $pwdvpdir/ -name file.txt
+  560  find $(pwd)/vpdir/ -name file.txt
+  561  clear
+  562  find $(pwd)/vpdir/ -name "file*"
+  563  find $(pwd)/vpdir/ -name "file4.txt" -exec rm -i {} \
+  564  find $(pwd)/vpdir/ -name "file4.txt" -exec rm -i {}
+  565  find $(pwd)/vpdir/ -name "file4.txt" -exec rm -i {} \;
+  566  ls
+  567  ls vpdir/
+  568  find $(pwd)/vpdir/ -name "file3.txt" -exec rm -i {} \;
+  569  find $(pwd)/testdir/ -name "file3.txt" -exec rm -i {} \;
+  570  ls testdir/
+  571  find $(pwd)/testdir/ -name "file*" -exec rm -i {} \;
+  572  find $(pwd)/testdir/ -empty
+  573  find $(pwd)/devopsdir/ -empty
+  574  touch test{1..3}.txt
+  575  ls
+  576  mv test1.txt test2.txt test3.txt testdir/
+  577  ls
+  578  find $(pwd)/testdir/ -empty
+  579  find $(pwd)/testdir/ -perm 755
+  580  find $(pwd)/testdir/ -perm 777
+  581  find $(pwd)/testdir/ -perm 644
+  582  find $(pwd)/testdir/ -perm 664
+  583  find $(pwd)/testdir/ -type d
+  584  find . -type d
+  585  find . -type df
+  586  find . -type d,f
+  587  find . -type f -name "*.txt" -exec grep 'This' {} \;
+  588  find . -type d -name "devops*"
+  589  find . -type f -exec grep -l 'pattern' {} \;
+  590  find . -type f -exec grep -l '*for*' {} \;
+  591  find . -type f -exec grep -l 'for*' {} \;
+  592  sudo yum update
+  593  sudo yum install git
+  594  git --version
+  595  git config --global user.name "Surender Gupta"
+  596  git config --global user.email "gupta.surender.1990@gmail.com"
+  597  mkdir linux-command
+  598  cd linux-command/
+  599  history > command.txt
