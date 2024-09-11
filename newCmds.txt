@@ -1,0 +1,648 @@
+    1  clear
+    2  pwd
+    3  ls
+    4  mkdir vpdir
+    5  mkdir testdir
+    6  mkdir devopsdir
+    7  ls
+    8  touch file1 file2 file3 file4
+    9  ls
+   10  cd devopsdir/
+   11  pwd
+   12  cd ..
+   13  mkdir devopsdir/ansible
+   14  ls devopsdir
+   15  mkdir /home/vagrant/devopsdir/aws
+   16  ls devopsdir
+   17  ls
+   18  cp file1 testdir/
+   19  ls
+   20  ls testdir
+   21  cp -rvfp testdir/ vpdir/
+   22  ls vpdir
+   23  ls vpdir/testdir/
+   24  clear
+   25  ls
+   26  mv devopsdir/ vpdir/
+   27  ls
+   28  ls vpdir/
+   29  mv file3 file4 vpdir/
+   30  ls
+   31  ls vpdir
+   32  rm file1
+   33  ls
+   34  rm -rf testdir/
+   35  ls
+   36  vim
+   37  ls /var/log/
+   38  ln -s /var/log/ logdir
+   39  ls -l
+   40  ls logdir
+   41  clear
+   42  history
+   43  clear
+   44  cat /etc/passwd
+   45  grep root /etc/passwd
+   46  grep -i Root /etc/passwd
+   47  grep Root /etc/passwd
+   48  grep -v root /etc/passwd
+   49  less /etc/passwd
+   50  clear
+   51  more /etc/passwd
+   52  head /etc/passwd
+   53  tail /etc/passwd
+   54  clear
+   55  ls
+   56  vim file1.txt
+   57  cat file1.txt 
+   58  cut -d: -f1 file1.txt 
+   59  cut -d" " -f1 file1.txt 
+   60  cut -d" " -f2 file1.txt 
+   61  cut -d" " -f3 file1.txt 
+   62  cut -d" " -f4 file1.txt 
+   63  cta file1.txt 
+   64  cat file1.txt 
+   65  sed 's/Tech/Technology/g' file1.txt 
+   66  sed 's/Technology /Technologies/g' file1.txt 
+   67  cat file1.txt 
+   68  sed 's/Tech/Technology/g' file1.txt 
+   69  cat file1.txt 
+   70  sed 's/Tech /Technologies/g' file1.txt 
+   71  sed 's/Tech/Technologies/g' file1.txt 
+   72  vim devopstools
+   73  cat devopstools 
+   74  sed 's/tech/tools/g' devopstools > devops.txt
+   75  ls
+   76  cat devops.txt 
+   77  grep -i root /etc/passwd 
+   78  grep -i root /etc/passwd >> devops.txt 
+   79  cat devops.txt 
+   80  grep -i root devops.txt | cut -d -f devops.txt
+   81  grep -i root devops.txt | cut -d: -f devops.txt
+   82  grep -i root | cut -d: -f devops.txt
+   83  cat devops.txt 
+   84  uptimer
+   85  uptimer 2>> /tmp/error.log
+   86  cat /tmp/error.log 
+   87  uptimer 2>> /tmp/error.log
+   88  cat /tmp/error.log 
+   89  uptimer &>> /tmp/error.log
+   90  cat /tmp/error.log 
+   91  ls
+   92  clear
+   93  ls
+   94  ls | head -3
+   95  ls | grep logdir
+   96  cat /etc/passwd | grep root
+   97  cat /etc/passwd | awk -F '{ print $1 }' | grep root
+   98  cat /etc/passwd | awk -F: '{ print $1 }' | grep root
+   99  cat /etc/passwd | awk -F: '{ print $1 }' | grep vagrant
+  100  ls
+  101  find pwd -name file1.txt 
+  102  find $pwd -name file1.txt 
+  103  find $pwd -type file1.txt 
+  104  find $pwd -type file1.txt, vpdir,scripts 
+  105  find--help
+  106  find --help
+  107  history
+  108      1  ifconfig
+  109      2  vim
+  110      3  ls
+  111      4  sudo apt update
+  112      5  sudo yum update
+  113      6  clear
+  114      7  vim
+  115      8  nano
+  116      9  yum install vim
+  117     10  sudo yum install vim
+  118     11  clear
+  119     12  vim
+  120     13  aws
+  121     14  curl -s "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+  122     15  ls
+  123     16  sudo yum install -y unzip &> /dev/null
+  124     17  unzip -q awscliv2.zip
+  125     18  ls
+  126     19  ls aws
+  127     20  sudo ./aws/install
+  128     21  aws --version
+  129     22  ls
+  130     23  rm -rf ./awscliv2.zip ./aws
+  131     24  ls
+  132     25  aws --version
+  133     26  command -v aws
+  134     27  command -v aws &> /dev/null
+  135     28  ls
+  136     29  clear
+  137     30  mdkir scripts
+  138     31  mkdir scripts
+  139     32  cs scripts/
+  140     33  cd scripts/
+  141     34  clear
+  142     35  ls
+  143     36  file1.sh
+  144     37  vim file1.sh
+  145     38  ls
+  146     39  chmod +x ./file1.sh
+  147     40  ls
+  148     41  ls -ltra
+  149     42  chmod 755 ./file1.sh
+  150     43  ls -ltra
+  151     44  ./file1.sh
+  152     45  vim file1.sh
+  153     46  ./file1.sh
+  154     47  clear
+  155     48  sudo yum uninstall awscli
+  156     49  sudo yum uninstall awscliv2
+  157     50  sudo yum uninstall aws
+  158     51  aws
+  159     52  aws help
+  160     53  sudo remove aws
+  161     54  sudo yum remove awscli
+  162     55  sudo yum remove aws-cli
+  163     56  sudo yum remove aws
+  164     57  sudo yum remove awscliv2
+  165     58  sudo /usr/local/aws-cli/v2/current/uninstall
+  166     59  command -v aws
+  167     60  cd /usr/local/bin/aws
+  168     61  cd /usr/local/bin
+  169     62  ls
+  170     63  aws
+  171     64  where aws
+  172     65  ~
+  173     66  cd ~
+  174     67  where aws
+  175     68  who am i
+  176     69  clear
+  177     70  aws
+  178     71  aws -version
+  179     72  aws --version
+  180     73  clear
+  181     74  which aws
+  182     75  ls -l /usr/local/bin/aws
+  183     76  sudo rm /usr/local/bin/aws
+  184     77  sudo rm /usr/local/bin/aws_completer
+  185     78  sudo rm -rf /usr/local/aws-cli
+  186     79  sudo rm -rf ~/.aws/
+  187     80  aws --version
+  188     81  aws
+  189     82  clear
+  190     83  ls
+  191     84  cd scripts/
+  192     85  ./file1.sh
+  193     86  aws
+  194     87  ./file1.sh
+  195     88  where aws
+  196     89  vim file1.sh
+  197     90  ./file1.sh
+  198     91  clear
+  199     92  ./file1.sh
+  200     93  vim file1.sh
+  201     94  ls
+  202     95  vim aws_cli_install.sh
+  203     96  vim aws_cli_uninstall.sh
+  204     97  ls
+  205     98  chmod 754 ./aws_cli_uninstall.sh
+  206     99  ls -l
+  207    100  chmod 755 ./aws_cli_install.sh
+  208    101  ls -l
+  209    102  ./aws_cli_install.sh
+  210    103  ./file1.sh
+  211    104  ./aws_cli_uninstall.sh
+  212    105  ./file1.sh
+  213    106  rm ./file1.sh ./check_aws.sh
+  214    107  rm ./check_aws.sh ./file1.sh
+  215    108  ls
+  216    109  vim check_aws.sh
+  217    110  chmod +x check_aws.sh
+  218    111  ls
+  219    112  ./check_aws.sh
+  220    113  vim check_aws.sh
+  221    114  ./check_aws.sh
+  222    115  clear
+  223    116  ls
+  224    117  ./check_aws.sh
+  225    118  clear
+  226    119  ls
+  227    120  cat check_aws.sh
+  228    121  cat aws_cli_install.sh
+  229    122  cat aws_cli_uninstall.sh
+  230    123  clear
+  231    124  vim aws_install.sh
+  232    125  chmod +x aws_install.sh
+  233    126  ./aws_install.sh
+  234    127  vim aws_install.sh
+  235    128  ./aws_install.sh
+  236    129  vim aws_install.sh
+  237    130  ./aws_install.sh
+  238    131  vim aws_install.sh
+  239    132  ./aws_install.sh
+  240    133  vim aws_install.sh
+  241    134  ./aws_install.sh
+  242    135  vim aws_install.sh
+  243    136  ./aws_install.sh
+  244    137  vim aws_install.sh
+  245    138  ./aws_install.sh
+  246    139  vim aws_install.sh
+  247    140  ./aws_install.sh
+  248    141  vim aws_install.sh
+  249    142  ./aws_install.sh
+  250    143  vim aws_install.sh
+  251    144  ./aws_install.sh
+  252    145  clear
+  253    146  vim aws_install.sh
+  254    147  ./aws_install.sh
+  255    148  vim aws_install.sh
+  256    149  ./aws_install.sh
+  257    150  vim aws_install.sh
+  258    151  ./aws_install.sh
+  259    152  vim aws_install.sh
+  260    153  ./aws_install.sh
+  261    154  vim aws_install.sh
+  262    155  ./aws_install.sh
+  263    156  vim aws_install.sh
+  264    157  ./aws_install.sh
+  265    158  ls
+  266    159  ./check_aws.sh
+  267    160  cat aws_cli_install.sh
+  268    161  vim aws_install.sh
+  269    162  clear
+  270    163  ./aws_install.sh
+  271    164  vim aws_install.sh
+  272    165  ./aws_install.sh
+  273    166  ls
+  274    167  ./aws_cli_uninstall.sh
+  275    168  ./aws_install.sh
+  276    169  vim aws_install.sh
+  277    170  ./aws_install.sh
+  278    171  vim aws_install.sh
+  279    172  exit
+  280    173  clear
+  281    174  pwd
+  282    175  ls
+  283    176  mkdir vpdir
+  284    177  mkdir testdir
+  285    178  mkdir devopsdir
+  286    179  ls
+  287    180  touch file1 file2 file3 file4
+  288    181  ls
+  289    182  cd devopsdir/
+  290    183  pwd
+  291    184  cd ..
+  292    185  mkdir devopsdir/ansible
+  293    186*
+  294    187  ls devopsdir
+  295    188  mkdir /home/vagrant/devopsdir/aws
+  296    189  ls devopsdir
+  297    190  ls
+  298    191  cp file1 testdir/
+  299    192  ls
+  300    193  ls testdir
+  301    194  cp -rvfp testdir/ vpdir/
+  302    195  ls vpdir
+  303    196  ls vpdir/testdir/
+  304    197  clear
+  305    198  ls
+  306    199  mv devopsdir/ vpdir/
+  307    200  ls
+  308    201  ls vpdir/
+  309    202  mv file3 file4 vpdir/
+  310    203  ls
+  311    204  ls vpdir
+  312    205  rm file1
+  313    206  ls
+  314    207  rm -rf testdir/
+  315    208  ls
+  316    209  vim
+  317    210  ls /var/log/
+  318    211  ln -s /var/log/ logdir
+  319    212  ls -l
+  320    213  ls logdir
+  321    214  clear
+  322    215  historyq
+  323  history
+  324  clear
+  325  history
+  326  clear
+  327  find $pwd -type f -name "*.txt"
+  328  find $pwd -type d -name "devops"
+  329  ls
+  330  find $pwd -type d -name devops
+  331  find $pwd -type d -name "devops*"
+  332  find $pwd -type d -name "scr*"
+  333  find $pwd -type f -size -n 100
+  334  find $pwd -type f -size -100
+  335  find $pwd -type f -size -10
+  336  find $pwd -type f -size +10
+  337  find $pwd -type f -size +100
+  338  find $pwd -type f -size +50
+  339  find $pwd -type f -size -50
+  340  find $pwd -type f -size -50 -mtime 1
+  341  find $pwd -type f -size -50 -mtime 1 -print
+  342  find $pwd -type f -size -50 -mtime 1 -maxdepth 1
+  343  find $pwd -maxdepth 0 -type f -size -50 -mtime 1
+  344  find $pwd -maxdepth 1 -type f -size -50 -mtime 1
+  345  find $pwd -maxdepth 2 -type f -size -50 -mtime 1
+  346  find $pwd -mindepth 2 -type f -size -50 -mtime 1
+  347  find $pwd -mindepth 3 -type f -size -50 -mtime 1
+  348  find $pwd -empty
+  349  find $pwd -delete
+  350  ls
+  351  history
+  352  clear
+  353  ls
+  354  mkdir testdir
+  355  mkdir vpdir
+  356  mkdir devopsdir
+  357  ls
+  358  touch file1.txt file2.txt file2.txt file4.txt
+  359  ls
+  360  echo 'This content for file1' >> file1.txt 
+  361  echo 'This content for file2' >> file2.txt 
+  362  echo 'This content for file3' >> file3.txt 
+  363  cat file1.txt 
+  364  cat file2.txt 
+  365  cat file3.txt 
+  366  cat file4.txt 
+  367  ls $pwd
+  368  mv file1.txt file2.txt testdir/
+  369  ls
+  370  ls testdir/
+  371  mv file3.txt file4.txt vpdir/
+  372  ls
+  373  devopsdir/
+  374  cd devopsdir/
+  375  touch file{1...5}.txt
+  376  ls
+  377  touch file{1..5}.txt
+  378  ls
+  379  rm file{1...5}.txt
+  380  ls
+  381  cd
+  382  find $pwd/vpdir -name file.txt
+  383  ls
+  384  find $pwd+'/vpdir/' -name file.txt
+  385  find $pwd'/vpdir/' -name file.txt
+  386  find $pwdvpdir/ -name file.txt
+  387  find $(pwd)/vpdir/ -name file.txt
+  388  clear
+  389  find $(pwd)/vpdir/ -name "file*"
+  390  find $(pwd)/vpdir/ -name "file4.txt" -exec rm -i {} \
+  391  find $(pwd)/vpdir/ -name "file4.txt" -exec rm -i {}
+  392  find $(pwd)/vpdir/ -name "file4.txt" -exec rm -i {} \;
+  393  ls
+  394  ls vpdir/
+  395  find $(pwd)/vpdir/ -name "file3.txt" -exec rm -i {} \;
+  396  find $(pwd)/testdir/ -name "file3.txt" -exec rm -i {} \;
+  397  ls testdir/
+  398  find $(pwd)/testdir/ -name "file*" -exec rm -i {} \;
+  399  find $(pwd)/testdir/ -empty
+  400  find $(pwd)/devopsdir/ -empty
+  401  touch test{1..3}.txt
+  402  ls
+  403  mv test1.txt test2.txt test3.txt testdir/
+  404  ls
+  405  find $(pwd)/testdir/ -empty
+  406  find $(pwd)/testdir/ -perm 755
+  407  find $(pwd)/testdir/ -perm 777
+  408  find $(pwd)/testdir/ -perm 644
+  409  find $(pwd)/testdir/ -perm 664
+  410  find $(pwd)/testdir/ -type d
+  411  find . -type d
+  412  find . -type df
+  413  find . -type d,f
+  414  find . -type f -name "*.txt" -exec grep 'This' {} \;
+  415  find . -type d -name "devops*"
+  416  find . -type f -exec grep -l 'pattern' {} \;
+  417  find . -type f -exec grep -l '*for*' {} \;
+  418  find . -type f -exec grep -l 'for*' {} \;
+  419  sudo yum update
+  420  sudo yum install git
+  421  git --version
+  422  git config --global user.name "Surender Gupta"
+  423  git config --global user.email "gupta.surender.1990@gmail.com"
+  424  mkdir linux-command
+  425  cd linux-command/
+  426  history > command.txt
+  427  ls
+  428  cat command.txt 
+  429  git init
+  430  git add  .
+  431  git commit -m "sample linux alma 9 commands"
+  432  git status
+  433  git log
+  434  git push
+  435  git remote add almalinux9 https://github.com/surendergupta/almalinux9.git
+  436  git push
+  437  git push --set-upstream almalinux9 main
+  438  git push --set-upstream almalinux9 master
+  439  cd
+  440  cd linux-command/
+  441  ls
+  442  ls -l
+  443  ls -la
+  444  hostname
+  445  hostnamectl
+  446  sudo vi /etc/hostname
+  447  cat /etc/hostname
+  448  sudo vi /etc/hosts
+  449  sudo hostnamectl set-hostname almalinux
+  450  hostnamectl
+  451  logout
+  452  exit
+  453  history
+  454  sudo hostnamectl set-hostname localhost
+  455  exit
+  456  cat /etc/hostname
+  457  cat /etc/hosts
+  458  sudo hostnamectl set-hostname almalinux9
+  459  exit
+  460  ps
+  461  top
+  462  ifconfig
+  463  ip
+  464  ping 192.168.0.1
+  465  netstat
+  466  traceroute
+  467  yum install php
+  468  sudo yum install php
+  469  php --version
+  470  ls
+  471  /var/www
+  472  ls /var/www/html
+  473  ls /var/www
+  474  clear
+  475  cat /etc/group
+  476  sudo useradd test{1..5}
+  477  cat /etc/group
+  478  sudo useradd user1
+  479  cat /etc/group
+  480  sudo useradd user2
+  481  sudo useradd user3
+  482  sudo useradd user4
+  483  sudo useradd user5
+  484  cat /etc/group
+  485  cat /etc/user
+  486  cat /etc/users
+  487  cat /etc/passwd
+  488  cat /etc/passwd | awk -F: '{ print $1 }' | grep 'user*'
+  489  cat /etc/passwd | awk -F: '{ print $1 }' | grep 'user*' > userList.txt
+  490  ls
+  491  cat userList.txt 
+  492  sudo passwd user1
+  493  cat /etc/passwd
+  494  su - user1
+  495  id
+  496  pwd
+  497  whoami
+  498  sudo useradd devops
+  499  id devops
+  500  id
+  501  id devops
+  502  grep devops /etc/passwd
+  503  groupadd opsadmin
+  504  sudo groupadd opsadmin
+  505  usermod -G opsadmin devops
+  506  sudo usermod -G opsadmin devops
+  507  id devops
+  508  sudo userdel -r user5
+  509  cat /etc/passwd | awk -F: '{ print $1 }' | grep 'user*' > userList.txt
+  510  cat /etc/passwd
+  511  ls
+  512  cat userList.txt 
+  513  sudo groupdel opsadmin
+  514  sudo id devops
+  515  cat /etc/passwd
+  516  cat /etc/shadow
+  517  sudo cat /etc/shadow
+  518  last
+  519  lsof -u user
+  520  ls -l
+  521  chmod u+x userList.txt 
+  522  ls -l
+  523  chmod o-r userList.txt 
+  524  ls -l
+  525  chmod 700 userList.txt 
+  526  ls -l
+  527  chmod 755 userList.txt 
+  528  ls -l
+  529  chmod u-x userList.txt 
+  530  ls -l
+  531  cat userList.txt 
+  532  chmod ugo-x userList.txt 
+  533  ls -l
+  534  cat userList.txt 
+  535  clear
+  536  id
+  537  sudo -i
+  538  sudo - devops
+  539  su - devops
+  540  su -
+  541  sudo -i
+  542  su - devops
+  543  sudo passwd devops
+  544  su - devops
+  545  su - user1
+  546  sudo passwd user1
+  547  su - user1
+  548  yum install tree
+  549  sudo yum install tree
+  550  clear
+  551  yum install httpd
+  552  sudo yum install httpd
+  553  yum --help
+  554  yum update
+  555  sudo yum update
+  556  yum remove httpd -y
+  557  sudo yum remove httpd -y
+  558  sudo yum install httpd -y
+  559  yum repolist
+  560  yum grouplist
+  561  yum history
+  562  df
+  563  df -i
+  564  fdisk -l
+  565  sudo fdisk -l
+  566  du
+  567  du -sh
+  568  sudo systemctl status httpd
+  569  sudo systemctl start httpd
+  570  sudo systemctl status httpd
+  571  sudo systemctl stop httpd
+  572  sudo systemctl status httpd
+  573  sudo systemctl restart httpd
+  574  sudo systemctl status httpd
+  575  sudo systemctl reload httpd
+  576  sudo systemctl status httpd
+  577  sudo systemctl enable httpd
+  578  sudo systemctl is-active httpd
+  579  sudo systemctl is-enabled httpd
+  580  ll
+  581  tar
+  582  yum install tar
+  583  sudo yum install tar
+  584  tar cf linux-command.tar linux-command
+  585  ll
+  586  tar xf linux-command.tar 
+  587  ls
+  588  ps
+  589  clear
+  590  ps
+  591  ps aux | grep
+  592  ps aux | grep 'telnet' telnet
+  593  ps aux | grep 'telnet' telnetprocess
+  594  ps aux | grep 'telnet' telnet process
+  595  ps aux | grep 'telnet'
+  596  pmap
+  597  top
+  598  fg
+  599  pkill
+  600  uname
+  601  uname -a
+  602  cat /etc/redhat_release
+  603  ls /etc/
+  604  cat /etc/almalinux_release
+  605  cat /etc/almalinux-release
+  606  uptime
+  607  hostname
+  608  hostname -i
+  609  last rebot
+  610  last login
+  611  date
+  612  cal
+  613  w
+  614  whoami
+  615  finger user
+  616  mesages
+  617  cat /proc/cpuinfo
+  618  cat /proc/meminfo
+  619  cat /proc/interrupts
+  620  free -m
+  621  lspci -tv
+  622  lsusb -tv
+  623  lshal
+  624  dmidecode
+  625  sudo dmidecode
+  626  hdparm -i
+  627  hdparm -i /dev/sda
+  628  hdparm -tT /dev/sda
+  629  badblock -s /dev/sda
+  630  top
+  631  mpstat 1
+  632  mpstat
+  633  vmstat
+  634  mpstat
+  635  iostat
+  636  iostat 2
+  637  tail -n 500 /kernel/syslog
+  638  free -m
+  639  lsof -u
+  640  tcpdump -i eth0 'port 80'
+  641  watch df -h
+  642  clear
+  643  history
+  644  ls
+  645  rm linux-command.tar 
+  646  ls
+  647  cd linux-command/
+  648  history > newCmds.txt
